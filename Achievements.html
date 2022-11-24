@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Achievements</title>
+    <link href="css/styling.css" rel="stylesheet" : />
+    <style>
+      .flexy {
+        display: flex;
+      }
+      .project {
+        display: flex;
+        flex-grow: 1;
+      }
+      .info {
+        color: white;
+        line-height: 50px;
+        padding: 20px;
+        font-size: 19px;
+      }
+      .images {
+        display: flex;
+        flex-direction: column;
+      }
+      img {
+        padding: 30px 50px;
+      }
+      .impbuttons {
+        margin-right: 10px;
+      }
+      a{
+        text-decoration: none
+      }
+
+      a:hover {
+        color: hotpink;
+      }
+      .project{
+        display: block;
+        margin-left: 5%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>My Portfolio - " I'm Rajarajan K "</h1>
+    <div class="flexy">
+      <div class="impbuttons">
+        <button onclick="location.href = 'index.html';" ;>Home</button>
+        <button onclick="location.href = 'Achievements.html';" ;>Achievements</button>
+        <button onclick="location.href = 'interests.html';" ;>Skills</button>
+        <button onclick="location.href = 'contact.html';" ;>Contact</button>
+      </div>
+      <div class="project">
+        <div class="images">
+          <img src="image/coder.jpg" rel="i like coding" height="200" width="200" />
+        </div>
+        <div class="lists">
+          <ul class="lists" style="list-style-type: none">
+            <li>
+              Computer Networks :
+            </li>
+            <li><a href="https://github.com/rajarajan2013/networksproject" target="_blank">Mini project : Network setup in a university using CISCO packet tracer</a></li>
+            <li><a href="image/aws.jpg" target="_blank">Aws course : Network setup in a university using CISCO packet tracer</a></li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
