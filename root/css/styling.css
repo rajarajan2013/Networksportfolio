@@ -45,13 +45,13 @@ button {
   font-size: 15px;
   font-weight: 300;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgba(133, 214, 51, 0.945); 
+  background-color: rgba(126, 243, 9, 0.783); 
 }
 
 button:hover {
   cursor: pointer;
-  color: #26c25a;
-  background-color: white }
+  color: #19f261fb;
+  background-color: rgba(255, 255, 255, 0.817) }
 
 .impbuttons,
 html,
